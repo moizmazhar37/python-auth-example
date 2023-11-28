@@ -15,9 +15,7 @@ jobs:
       
     - name: Set up Python
       uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-
+     
     - name: Build Docker image
       run: docker build -t moizmazhar47/python-auth-example .
 
